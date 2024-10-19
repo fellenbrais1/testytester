@@ -1,4 +1,5 @@
 pub mod helpers;
+pub mod closures;
 
 fn main() {
     println!("Hello, world!");
@@ -12,6 +13,7 @@ fn main() {
     let data = helpers::data_base::display_data();
     println!("Data is {}", data);
     // testfunc()
+    closures::test_closures();
 }
 
 // When casting a floating point value to a u8 value like the below, the
